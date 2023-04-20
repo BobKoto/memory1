@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.memory1.Main2Activity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings2"
+        android:orderInCategory="100"
+        android:title="@string/action_settings2"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_settings3"
+        android:orderInCategory="100"
+        android:title="@string/action_settings3"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings4"
+        android:orderInCategory="100"
+        android:title="@string/action_settings4"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_settings5"
+        android:orderInCategory="100"
+        android:title="@string/action_settings5"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings6"
+        android:orderInCategory="100"
+        android:title="@string/action_settings6"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c6f3f3"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <ImageView
+        android:id="@+id/mimageView0"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginBottom="20dp"
+        android:background="#c6f3f3"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mimageView2"
+        app:layout_constraintEnd_toStartOf="@+id/mimageView1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/blacksquare" />
+<!--  android:layout_marginBottom="27dp" -->
+    <ImageView
+        android:id="@+id/mimageView1"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="88dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/mimageView0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/mimageView0"
+        app:layout_constraintTop_toTopOf="@+id/mimageView0"
+        app:srcCompat="@drawable/bluehalfmoon" />
+
+
+    <ImageView
+        android:id="@+id/mimageView2"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="93dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginBottom="20dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mimageView4"
+        app:layout_constraintEnd_toStartOf="@+id/mimageView3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mimageView0"
+        app:srcCompat="@drawable/yellowsphere" />
+
+
+    <ImageView
+        android:id="@+id/mimageView3"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginBottom="20dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/mimageView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/mimageView2"
+        app:layout_constraintTop_toTopOf="@+id/mimageView1"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/whitestar" />
+
+    <ImageView
+        android:id="@+id/mimageView4"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="93dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginBottom="20dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/WelcomeText"
+        app:layout_constraintEnd_toStartOf="@+id/mimageView5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mimageView2"
+        app:srcCompat="@drawable/greendiamond" />
+
+    <ImageView
+        android:id="@+id/mimageView5"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="87dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/mimageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/mimageView4"
+        app:layout_constraintTop_toTopOf="@+id/mimageView4"
+        app:srcCompat="@drawable/redtriangle" />
+
+    <TextView
+        android:id="@+id/WelcomeText"
+        android:layout_width="328dp"
+        android:layout_height="63dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        android:animateLayoutChanges="true"
+        android:background="#37F1DCE1"
+        android:gravity="center"
+        android:soundEffectsEnabled="true"
+        android:text="@string/GameTitle"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mimageView4" />
+
+    <TextView
+        android:id="@+id/ObjectText"
+        android:layout_width="349dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="17dp"
+        android:text="@string/GameObject"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/pressScoring"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/WelcomeText" />
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="154dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="12dp"
+        android:gravity="center|end"
+        android:text="@string/EnterGame"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pressScoring" />
+
+    <TextView
+        android:id="@+id/pressScoring"
+        android:layout_width="374dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/pressScoring"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.222"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ObjectText" />
+
+
+</android.support.constraint.ConstraintLayout>
+

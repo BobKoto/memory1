@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+<!-- This is NOT a DIALOG   It is GameSettings   originally and still named difficultydialog-->
+    <TextView
+        android:id="@+id/difficultyDialogTitle"
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+
+        android:gravity="center"
+        android:text="@string/gameSettings"
+        android:textColor="#0091EA"
+        android:textSize="36sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textViewPreviewSpeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="@string/previewspeed"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+
+    <RadioGroup
+        android:id="@+id/rG1"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:paddingEnd="0dp"
+        android:paddingStart="20dp">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="382dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            android:button="@android:drawable/btn_radio"
+            android:paddingStart="20dp"
+            android:paddingEnd="0dp"
+            android:text="@string/normalPreview"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="381dp"
+            android:layout_height="wrap_content"
+            android:button="@android:drawable/btn_radio"
+            android:paddingStart="20dp"
+            android:paddingEnd="0dp"
+            android:text="@string/fasterPreview"
+            android:textSize="20sp" />
+
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textViewNumberOfImages"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+
+        android:baselineAligned="false"
+        android:text="@string/numberofimages"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:visibility="invisible" />
+
+    <RadioGroup
+        android:id="@+id/rG2"
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:animateLayoutChanges="true"
+        android:baselineAligned="false"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"
+        android:visibility="invisible">
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            android:button="@android:drawable/btn_radio"
+            android:paddingStart="20dp"
+            android:paddingEnd="0dp"
+            android:text="@string/SixImages"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@android:drawable/btn_radio"
+            android:paddingStart="20dp"
+            android:paddingEnd="0dp"
+            android:text="@string/NineImages"
+            android:textSize="20sp" />
+
+
+    </RadioGroup>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="bottom|end"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        app:srcCompat="@android:drawable/ic_media_play" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="168dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="false"
+        android:layout_gravity="center|center_horizontal|start|center_vertical"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="127dp"
+        android:baselineAligned="false"
+        android:gravity="end|center_vertical"
+        android:orientation="horizontal"
+        android:text="@string/enter_game"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</RelativeLayout>
+
+</LinearLayout>
+
+
+
+    <!--
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        android:layout_width="238dp"
+            android:layout_height="126dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="137dp"/>
+
+
+        <RadioGroup
+            android:id="@+id/RG1"
+            android:layout_width="371dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="151dp"
+            android:layout_marginRight="10dp">
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="371dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/RG1"
+                android:layout_alignLeft="@+id/RG1"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="45dp"
+                android:layout_marginEnd="54dp"
+                android:layout_marginRight="54dp"
+                android:checked="true"
+                android:text="Slow Preview - Easy (default)"
+                android:textSize="23sp" />
+
+            <RadioButton
+                android:id="@+id/radioButton4"
+                android:layout_width="313dp"
+                android:layout_height="47dp"
+                android:layout_alignStart="@+id/RG1"
+                android:layout_alignLeft="@+id/RG1"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="48dp"
+                android:layout_marginRight="48dp"
+                android:text="Fast Preview - Harder"
+                android:textSize="23sp" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/RG2"
+            android:layout_width="374dp"
+            android:layout_height="284dp"
+            android:layout_below="@+id/RG1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="136dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginBottom="21dp">
+
+            <RadioButton
+                android:id="@+id/radioButton5"
+                android:layout_width="347dp"
+                android:layout_height="51dp"
+                android:layout_alignStart="@+id/RG2"
+                android:layout_alignLeft="@+id/RG2"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="54dp"
+                android:layout_marginRight="54dp"
+                android:checked="true"
+                android:clickable="true"
+                android:text="6 Images - Easy (default)  "
+                android:textSize="23sp" />
+
+            <RadioButton
+                android:id="@+id/radioButton6"
+                android:layout_width="305dp"
+                android:layout_height="45dp"
+                android:layout_alignStart="@+id/RG2"
+                android:layout_alignLeft="@+id/RG2"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="48dp"
+                android:layout_marginRight="48dp"
+                android:text="9 Images - Harder"
+                android:textSize="23sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textViewPreviewSpeed"
+            android:layout_width="349dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="116dp"
+            android:text="@string/previewspeed"
+            android:textSize="30sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textViewNumberOfImages"
+            android:layout_width="315dp"
+            android:layout_height="49dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="359dp"
+            android:layout_marginEnd="76dp"
+            android:text="@string/numberofimages"
+            android:textSize="30sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/difficultyDialogTitle"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="0dp"
+            android:gravity="center"
+            android:text="@string/difficultyDialogTitle"
+            android:textColor="#0091EA"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+    </RelativeLayout> -->

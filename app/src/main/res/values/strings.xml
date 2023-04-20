@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">memory1</string>
+    <string name="EnterGame">Enter Game</string>
+    <string name="tap">Tap in game</string>
+    <string name="action_settings6">Toggle PRACTICE MODE</string>
+
+    <string name="action_settings5">Info + How to Play</string>
+    <string name="action_settings4">Reset Statistics</string>
+    <string name="action_settings3">Game Statistics </string>
+    <string name="action_settings2">Game Settings</string>
+    <string name="action_settings">Reset Score</string>
+    <string name="PMon">Practice Mode ON</string>
+    <string name="PMoff">Practice Mode OFF</string>
+    <string name="PerfectSpeedy">Perfect and Speedy</string>
+    <string name="ResetStats">Reset Statistics</string>
+    <string name="PerfectRounds">Perfect Rounds</string>
+    <string name="CInvisible">Calendar Invisible</string>
+    <string name="CVisible">Calendar Visible</string>
+    <string name="GoAgain">GO Again!</string>
+    <string name="TapForStats">Tap for Game Statistics</string>
+    <string name="SixImages">6 Images - Easy (default)  </string>
+    <string name="NineImages">9 Images - Harder</string>
+    <string name="MostRecent">Most Recent</string>
+    <string name="Second">2nd</string>
+    <string name="Third">3rd</string>
+    <string name="Fourth">4th</string>
+    <string name="GameScore">Game Score</string>
+    <string name="ActualTimePlayed">Actual Time Played</string>
+    <string name="PressesthisGame">Presses per Game</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="GameTitle">Welcome to Memory1 \n MainTrain Brain llc</string>
+    <string name="Strategy1">Use your best VISUAL and AUDITORY CONCENTRATION to follow and tap
+        the images as they appear. \n\n
+        You can start tapping images as soon as they appear.
+        But be careful! As you tap images their corresponding tones will play and can intermingle
+        with the previewing image tones. \n\n
+        <i>SCORING:</i> Correct taps play the corresponding unique tone for that image and score 25 points.\n\n
+        Tapping a wrong/out of sequence image produces a low-pitch error tone and a score deduction of 25
+        points.\n\n Whenever you make a wrong tap, or you are unsure of which image to tap next,
+        KEEP GOING with your best memory or guesses. \n\n
+        See GAME SETTINGS below for more info on scoring.\n
+    </string>
+    <string name="Strategy2">
+        <i>GAME SETTINGS:</i>
+        <b>Normal Preview</b> means each of the 6 images and tones are previewed 1 every .5 (one half)
+        second, so that in Normal Preview the 6 images are displayed in 3 seconds. \n\n
+
+        Playing with Normal Preview you will score a Speedy 100 point bonus for a Round played
+        perfectly (6 of 6 correct taps) in under 5 seconds.\n\n
+
+        <i>GAME SETTINGS:</i>
+        <b>Faster Preview</b> is more difficult and means images and tones are previewed 1 every .25
+        (one quarter) second, so that in Faster Preview the 6 images are displayed in 1 and one-half seconds.
+        \n\n
+        Playing with Faster Preview you will score a Speedy 100 point bonus for a Round played
+        perfectly (6 of 6 correct taps) in under 3.5 seconds.\n\n
+
+        For best accurate and meaningful game statistics you should only change the Image Preview speeds between
+        full games - not between rounds. \n\n
+
+        <i>ADVANCED AUDITORY ONLY:</i>
+        As you get accustomed to the tones and become an advanced player
+        you can try AUDITORY ONLY by holding a hand over your phone\'s display, or closing your eyes,
+        while the preview is displaying - and concentrating on the tones played.
+        \n\n
+        Tap the tones back in the order you HEAR them.
+       \n\n
+        <i>ADVANCED VISUAL ONLY:</i>
+        As you get accustomed to the visual hints and become an advanced player you can try VISUAL ONLY by
+        muting your phone\'s audio so you only see the images previewed. \n\n
+        Tap the images in the order you SEE them appear. \n\n
+        <i>PRACTICE MODE:</i>
+        Allows you to get used to the game and is easy and still fun to play. Practice Mode
+        displays the images in left to right and down order. You can turn Practice Mode on and off
+        by selecting Toggle PRACTICE MODE in the upper right dropdown menu.
+      \n\n
+        <i>Good luck. MainTRain your brain!</i></string>
+    <string name="GameObject">The object of Memory1 is to tap the images in the same sequence they appear
+        and their corresponding unique tones play,
+        \n  "               "   <i>AS FAST AS YOU CAN</i>.</string>
+    <string name="correctPresses">Correct Presses =  + 25 points</string>
+    <string name="incorrectPresses">Incorrect Presses =  - 25 points</string>
+    <string name="bonusForSpeedAccuracy">6 of 6 Correct Presses in under 6 seconds = + 100 Bonus points</string>
+    <string name="pressScoring">Correct Presses  = + 25 Points \nWrong Presses =  - 25 Points \nSpeed Bonus  =  + 100 Points (6 of 6 within 2 seconds after final image is previewed)</string>
+    <string name="title_activity_how_to_play">HowToPlay</string>
+    <string name="enter_game">Enter Game</string>
+    <string name="previewspeed">Image Preview Speed...</string>
+    <string name="numberofimages">Number of Images... (to press in a round)</string>
+    <string name="gameSettings">Game Settings</string>
+    <string name="normalPreview">Normal Preview - Easy (default)"</string>
+    <string name="fasterPreview">Faster Preview - More Difficult</string>
+    <string name="title_activity_game_stats">Game Statistics</string>
+
+</resources>
+

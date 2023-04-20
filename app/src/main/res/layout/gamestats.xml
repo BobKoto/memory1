@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="238dp"
+        android:layout_height="61dp"
+        android:text="@string/title_activity_game_stats"
+        android:textColor="#0091EA"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/gameStatCol3"
+        android:layout_width="101dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="29dp"
+        android:gravity="bottom|end"
+        android:text="@string/Fourth"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/gameStatCol2"
+        android:layout_width="101dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="147dp"
+        android:gravity="bottom|end"
+        android:text="@string/Third"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/gameStatCol1"
+        android:layout_width="101dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="262dp"
+        android:gravity="bottom|end"
+        android:text="@string/Second"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/gameStatCol0"
+        android:layout_width="101dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="377dp"
+        android:gravity="bottom|end"
+        android:text="@string/MostRecent"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/scoreGame3"
+            android:layout_width="101dp"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="29dp"
+            android:gravity="center|end"
+            android:text="9999" />
+
+        <TextView
+            android:id="@+id/scoreGame2"
+            android:layout_width="101dp"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="147dp"
+            android:gravity="center|end"
+            android:text="9999" />
+
+        <TextView
+            android:id="@+id/scoreGame1"
+            android:layout_width="101dp"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="262dp"
+            android:gravity="center|end"
+            android:text="9999" />
+
+        <TextView
+            android:id="@+id/gameScore"
+            android:layout_width="217dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="10dp"
+            android:gravity="left|end"
+            android:text="@string/GameScore"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/scoreGame0"
+            android:layout_width="101dp"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="377dp"
+            android:gravity="center|end"
+            android:text="9999" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/ATP3"
+            android:layout_width="101dp"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="29dp"
+            android:gravity="center|end"
+            android:text="Z Secs" />
+
+        <TextView
+            android:id="@+id/ATP2"
+            android:layout_width="101dp"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="147dp"
+            android:gravity="center|end"
+            android:text="Y Secs" />
+
+        <TextView
+            android:id="@+id/ATP1"
+            android:layout_width="101dp"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="262dp"
+            android:gravity="center|end"
+            android:text="X secs" />
+
+        <TextView
+            android:id="@+id/ATP"
+            android:layout_width="217dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="10dp"
+            android:gravity="center|start"
+            android:text="@string/ActualTimePlayed"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/ATP0"
+            android:layout_width="101dp"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:gravity="center|end"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="377dp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/PTG3"
+            android:layout_width="101dp"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="29dp"
+            android:gravity="center|end"
+            android:text="99/99, 100%" />
+
+        <TextView
+            android:id="@+id/PTG2"
+            android:layout_width="101dp"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="147dp"
+            android:gravity="center|end"
+            android:text="99/99, 100%" />
+
+        <TextView
+            android:id="@+id/PTG1"
+            android:layout_width="101dp"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="262dp"
+            android:gravity="center|end"
+            android:text="99/99, 100%" />
+
+        <TextView
+            android:id="@+id/PTG"
+            android:layout_width="217dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="10dp"
+            android:gravity="center|start"
+            android:text="@string/PressesthisGame"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/PTG0"
+            android:layout_width="101dp"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="377dp"
+            android:gravity="center|end"
+            android:text="999/999, 100%" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/PRnds3"
+            android:layout_width="101dp"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="29dp"
+            android:gravity="center|end"
+            android:text="99/99, 100%" />
+
+        <TextView
+            android:id="@+id/PRnds2"
+            android:layout_width="101dp"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="147dp"
+            android:gravity="center|end"
+            android:text="99/99, 100%" />
+
+        <TextView
+            android:id="@+id/PRnds1"
+            android:layout_width="101dp"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="262dp"
+            android:gravity="center|end"
+            android:text="99/99, 100%" />
+
+        <TextView
+            android:id="@+id/PRnds0"
+            android:layout_width="101dp"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:gravity="center|end"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="377dp" />
+
+        <TextView
+            android:id="@+id/perfectRounds"
+            android:layout_width="186dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="10dp"
+            android:gravity="center|start"
+            android:text="@string/PerfectRounds"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/PU2s3"
+            android:layout_width="101dp"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="29dp"
+            android:gravity="center|end"
+            android:text="99/99, 100%" />
+
+        <TextView
+            android:id="@+id/PU2s2"
+            android:layout_width="101dp"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="147dp"
+            android:gravity="center|end"
+            android:text="99/99, 100%" />
+
+        <TextView
+            android:id="@+id/PU2s1"
+            android:layout_width="101dp"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="262dp"
+            android:gravity="center|end"
+            android:text="99/99, 100%" />
+
+        <TextView
+            android:id="@+id/PU2s0"
+            android:layout_width="101dp"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:gravity="center|end"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="377dp" />
+
+        <TextView
+            android:id="@+id/perfectRoundsUnderTwoSeconds"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:text="@string/PerfectSpeedy"
+            android:textSize="20sp" />
+     <!-- android:hint="Perfect and Speedy means you got 6 of 6 correct within 2 seconds after last image was previewed" -->
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="127dp"
+            android:layout_height="48dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="172dp"
+            android:gravity="center|end"
+            android:text="@string/EnterGame"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/difficultySettings"
+            android:layout_width="200dp"
+            android:layout_height="59dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="93dp"
+            android:layout_marginEnd="438dp"
+            android:gravity="center"
+            android:text="@string/ResetStats"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="98dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:srcCompat="@android:drawable/ic_media_play" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/resetStatsFab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="369dp"
+            android:background="@color/colorPrimary"
+            android:clickable="true"
+            android:focusable="true"
+            app:backgroundTint="#2337AC"
+            app:srcCompat="@android:drawable/ic_media_play" />
+    </RelativeLayout>
+
+
+</LinearLayout>
