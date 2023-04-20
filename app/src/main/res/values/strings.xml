@@ -84,7 +84,7 @@
     <string name="pressScoring">Correct Presses  = + 25 Points \nWrong Presses =  - 25 Points \nSpeed Bonus  =  + 100 Points (6 of 6 within 2 seconds after final image is previewed)</string>
     <string name="title_activity_how_to_play">HowToPlay</string>
     <string name="enter_game">Enter Game</string>
-    <string name="previewspeed">Image Preview Speed...</string>
+    <string name="previewspeed">Image Preview Speed Selection...</string>
     <string name="numberofimages">Number of Images... (to press in a round)</string>
     <string name="gameSettings">Game Settings</string>
     <string name="normalPreview">Normal Preview - Easy (default)"</string>

@@ -42,8 +42,8 @@ public class DifficultyDialog  extends MainActivity {
 
         setContentView(R.layout.difficultydialog);
         FloatingActionButton fab = findViewById(R.id.fab);
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+       // Toolbar toolbar = findViewById(R.id.toolbar);
+      //  setSupportActionBar(toolbar);
         ActionBar ab = getSupportActionBar();
          if (ab != null) ab.setDisplayHomeAsUpEnabled(true);
 
